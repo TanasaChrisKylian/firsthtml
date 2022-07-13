@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(./assets/bg.jpg) fixed  center/cover;
+    height: 100%;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.6);
+    margin: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 20px #00000096;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    display: grid;
+}
+
+main {
+    display: grid;
+    padding: 20px;
+    margin: 10px auto;
+    background: rgba(255, 255, 255, 0.596);
+    border-radius: 8px; 
+}
+
+.form {
+    margin-bottom: 15px;
+    display: grid;
+}
+
+input[type="text"] {
+    border: none;
+    border-radius: 9px;
+    padding: 5px;
+}
+
+footer {
+    display: grid;
+}
+
+h2 {
+    padding: 17px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.589);
+    border-radius: 9px;
+    border: none;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    margin: 10px 50px;
+    transition: 1s;
+}
+
+.option {
+    margin: auto;
+    background: rgba(255, 255, 255, 0.493);
+    border-radius: 10px;
+    padding: 20px;
+    transition: 1s;
+}
+
+.option:hover {
+    color: white;
+    background: #00000096;
+}
+
+#submit {
+    margin-top: 40px;
+    background: rgba(245, 222, 179, 0.459);
+    border-radius: 9px;
+    padding: 0px;
+    margin: 40px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+    border: none;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+
